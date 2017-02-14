@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'test/txt'
+
     root "intro#welcome"
     get "intro/welcome"
 
