@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Microposts</h1>
 
-<table>
+<table class="myTable">
+ <caption class="tableCaption">Microposts</caption>
   <thead>
     <tr>
       <th>Content</th>
@@ -26,4 +26,9 @@
 
 <br>
 
+<div class=links>
+<h3>Link to other pages :</h3>
 <%= link_to 'New Micropost', new_micropost_path %>
+<%= link_to 'Users', "/users" %>
+</div>
+
