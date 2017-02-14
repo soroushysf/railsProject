@@ -22,13 +22,13 @@
     background-color: rgba(256,256,256, 0.9);
     border-radius: 5px;
     padding: 10px 20px;
-    margin: 0 auto;
+    margin: 80px auto;
 }
 .contentMiddle {
     background-color: rgba(256,256,256, 0.9);
     border-radius: 5px;
     padding: 10px 20px;
-    margin: 0 auto; 
+    margin: 80px auto; 
     width: 400px;
 }
 .tableCaption {
@@ -48,9 +48,13 @@ input[type="submit"] {
     border: none;
     padding: 10px 15px;
 }
+input[type="submit"]:hover {
+      background-color: #5aaf5c;  
+    cursor: pointer;
+}
 h1 {
     display: block;
-    margin: 0 auto;
+    margin: 80px auto 0 auto;
     width: 250px;
     margin-bottom: 10px;
     background-color: #337ab7;
@@ -70,6 +74,26 @@ a {
 a:hover {
  background-color: #f0904f !important;
 
+}
+.introLinks {
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 18px;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 3px;
+    box-shadow: none !important;
+    border: none;
+    padding: 20px 15px; 
+}
+.introLinks:hover {
+          background-color: #5aaf5c !important;  
+}
+.introHeader {
+    font-family: fantasy;
+    font-size: 32px;
+    margin: 40px auto;
 }
 .links {
     margin: 0 auto;
