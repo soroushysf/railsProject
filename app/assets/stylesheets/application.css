@@ -13,3 +13,65 @@
  *= require_tree .
  *= require_self
  */
+
+.backgroundImage {
+    background: url('rain.png') ;
+    background-size: cover;
+}
+.myTable {
+    background-color: rgba(256,256,256, 0.9);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+.contentMiddle {
+    background-color: rgba(256,256,256, 0.9);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 auto; 
+    width: 400px;
+}
+.tableCaption {
+    font-size: 26px;
+    margin-bottom: 10px;
+    background-color: #337ab7;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+}
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 3px;
+    box-shadow: none !important;
+    border: none;
+    padding: 10px 15px;
+}
+h1 {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    margin-bottom: 10px;
+    background-color: #337ab7;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;   
+}
+a {
+    text-decoration: none;
+    background-color: #f0ad4e;
+    border: none;
+    border-radius: 3px;
+    color: white !important;
+    padding: 5px 10px;
+}
+a:hover {
+ background-color: #f0904f !important;
+
+}
+.links {
+    margin: 0 auto;
+    width: 200px;
+}
