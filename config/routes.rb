@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'intro/welcome'
 
   resources :microposts
   resources :users
